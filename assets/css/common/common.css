@@ -1,0 +1,89 @@
+.title {
+  font-size: 2.2rem;
+  color: var(--colorGrey);
+}
+
+.svg {
+  width: 100%;
+  height: 100%;
+}
+
+.text {
+  font-size: 0.875rem;
+  font-family: var(--fontSmall);
+  color: var(--colorWhiteDark);
+}
+
+.btn {
+  background: var(--colorRed);
+  color: var(--colorWhite);
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+
+.btn:hover {
+  background: #be4032;
+  color: var(--colorWhite);
+}
+
+.card-title {
+  font-size: 1.125rem;
+}
+
+.list {
+  list-style: none;
+}
+
+.circle {
+  width: 75px;
+  height: 75px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.circle-inner {
+  border-radius: 50%;
+  background: var(--colorWhite);
+  width: 85%;
+  height: 85%;
+}
+
+.dot {
+  background: var(--colorRed);
+  height: 10px;
+  width: 10px;
+}
+
+.dot:before {
+  content: '';
+  width: 100px;
+  height: 2px;
+  background: var(--colorGreyLight);
+  position: absolute;
+  left: -10px;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+          transform: translate(-100%, -50%);
+}
+
+.dot:after {
+  content: '';
+  width: 100px;
+  height: 2px;
+  background: var(--colorGreyLight);
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  -webkit-transform: translate(100%, -50%);
+          transform: translate(100%, -50%);
+}
+
+.background {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+}
+/*# sourceMappingURL=common.css.map */
