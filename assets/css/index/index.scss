@@ -931,4 +931,16 @@ h5 {
 	.blog-data {
 		border-bottom: solid var(--colorWhite);
 	}
+
+	.blog-data-right {
+		&:before {
+			display: none;
+		}
+	}
+
+	.blog-data-left {
+		&:before {
+			display: none;
+		}
+	}
 }
